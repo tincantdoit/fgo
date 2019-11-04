@@ -1,0 +1,653 @@
+
+.dropbtn {
+  background-color: #5CB3FF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family:Montserrat;
+  margin:5% 0;
+  color:white;
+  font-family: 'Montserrat';
+  border-radius:15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family:Montserrat;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:Montserrat;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #157DEC;
+}
+
+.dropbtn:hover {
+  background-color:#157DEC;
+}
+.body {
+  background-color:#D1D0CE;
+}
+
+.info h1{
+  font-family: 'Montserrat';
+  font-size:2.5vw;
+  font-weight:bold;
+  text-align:left;
+  padding-top:5%;
+}
+
+.info p{
+  font-family: 'Montserrat';
+  font-size:2vw;
+  text-align:left;
+}
+
+.info{
+  float:left;
+  width:60%;
+  padding:0 5%;
+}
+
+.images{
+  display:block;
+  text-align:right;
+  padding-right:0%;
+  padding-top:2.5%;
+}
+
+.text h1{
+  padding:0 20%;
+  font-family: 'Montserrat';
+  font-size:2.5vw;
+  font-weight:bold;
+  text-align:center;
+}
+.text p{
+  padding:0 20%;
+  font-family: 'Montserrat';
+  font-size:2vw;
+  text-align:center;
+}
+.button{
+  margin:5% 0;
+  font-size:5vw;
+  color:white;
+  font-family: 'Montserrat';
+  background-color:#36bf5a;
+  border:black solid 5px;
+  border-radius:15px;
+}
+
+.button1 {
+  position:absolute;
+  margin-top: 220px;
+  margin-left: 270px;
+}
+
+.button2 {
+  position:absolute;
+  margin-top: 220px;
+  margin-left: 400px;
+}
+
+.button3 {
+  position: absolute;
+  margin-top:290px;
+  margin-left:270px;
+}
+
+.button4 {
+  position: absolute;
+  margin-top:290px;
+  margin-left:400px;
+}
+
+#main_img {
+  float: left;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.sabericon {
+  float: left;
+  position: absolute;
+  margin-top: -50px;
+  margin-left:10px;
+}
+
+.sabertext {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 70px;
+}
+
+.table {
+  font-family:Montserrat;
+  position: absolute;
+  margin-left: 270px;
+}
+
+.burger th{
+  background-color:#D1D0CE;
+  border: solid black;
+}
+
+.burger table, th, td{
+  border:1px solid black;
+}
+
+.stars {
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 370px;
+}
+
+.bargraph {
+    list-style: none;
+    padding-top: 20px;
+    width:500px;
+    position: absolute;
+    margin-top:350px;
+    margin-left:-40px;
+
+    }
+ul.bargraph li {
+    height: 35px;
+    color: white;
+    text-align: left;
+    font-weight:bolder;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 5px;
+    border:1px solid black;
+
+    }
+
+    ul.bargraph li.green {
+    background: #5EFB6E;
+    width:96%;
+    font-family:Montserrat;
+    }
+
+    ul.bargraph li.red {
+    background:#F75D59;
+    width:81%;
+    font-family:Montserrat;
+    }
+
+
+    .bargraph2 {
+        list-style: none;
+        padding-top: 20px;
+        width:500px;
+        position: absolute;
+        margin-top:350px;
+        margin-left:-40px;
+
+        }
+
+    ul.bargraph2 li {
+        height: 35px;
+        color: white;
+        text-align: right;
+        font-weight:bolder;
+        font-size: 14px;
+        line-height: 35px;
+        padding: 0px 20px;
+        margin-bottom: 5px;
+        border:1px solid black;
+
+        }
+
+        ul.bargraph2 li.max {
+        background: #D1D0CE;
+        width:100%;
+        font-family:Montserrat;
+        }
+
+        ul.bargraph2 li.max {
+        background:#D1D0CE;
+        width:100%;
+        font-family:Montserrat;
+        }
+.HPranking {
+  position: absolute;
+  font-family: Montserrat;
+  margin-left: 417px;
+  margin-top: 380px;
+  color:white;
+}
+.ATKranking {
+  position: absolute;
+  font-family: Montserrat;
+  margin-left: 400px;
+  margin-top:422px;
+  color:white;
+}
+body {
+  background-color:#FDD7E4;
+}
+
+.stats {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:480px;
+  font-family:Montserrat;
+}
+
+.stats th{
+  background-color:#D1D0CE;
+}
+
+.gain1 {
+  border:1px solid black;
+  padding:1%;
+  position: absolute;
+  margin-top:570px;
+  margin-left:1px;
+
+}
+
+.gain2 {
+  border:1px solid black;
+  padding:1%;
+  position: absolute;
+  margin-top:644px;
+  margin-left:1px;
+
+}
+.gaintable {
+  position: absolute;
+  margin-top: 568px;
+  margin-left: 68.6px;
+  font-family:Montserrat;
+}
+
+.gaintable th{
+  background-color:#D1D0CE;
+  width:230px;
+  height:32px;
+}
+
+.gaintable td {
+  width:230px;
+  height:32px;
+}
+.atkbuffpic {
+  position: absolute;
+  margin-top:770px;
+  margin-left:0px;
+}
+.atkbuff {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:845px;
+  font-family:Montserrat;
+}
+
+.atkbuff th{
+  background-color:#D1D0CE;
+}
+
+.atkbuffdetails {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:751px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+
+.busterbuffpic {
+  position: absolute;
+  margin-top:950px;
+  margin-left:0px;
+}
+.busterbuff {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:1025px;
+  font-family:Montserrat;
+}
+
+.busterbuff th{
+  background-color:#D1D0CE;
+}
+
+.busterbuffdetails {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:931px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+.intuitionpic {
+  position: absolute;
+  margin-top:1130px;
+  margin-left:0px;
+}
+.intuitionbuff {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:1205px;
+  font-family:Montserrat;
+}
+
+.intuitionbuff th{
+  background-color:#D1D0CE;
+}
+
+.intuitiondetails {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:1111px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+
+.magicpic {
+  position: absolute;
+  margin-top:1310px;
+  margin-left:0px;
+}
+
+.magicdetails {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:1291px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+
+.ridingpic {
+  position: absolute;
+  margin-top:1400px;
+  margin-left:0px;
+}
+
+.ridingdetails {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:1381px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+
+.skills {
+  font-family:Montserrat;
+  font-size:50px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top:680px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.passives {
+  font-family:Montserrat;
+  font-size:50px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top:1215px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.np {
+    font-family:Montserrat;
+    font-size:50px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top:1495px;
+    background-color: #E9C3D0;
+    border:1px solid grey;
+    padding-right:1%;
+    padding-left:1%;
+}
+.nppic {
+  position: absolute;
+  margin-top:1590px;
+  margin-left:0px;
+}
+
+.npdetails {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:1571px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+.nppic2 {
+  position: absolute;
+  margin-top:1700px;
+  margin-left:0px;
+}
+
+.npdetails2 {
+  font-family: Montserrat;
+  position: absolute;
+  margin-top:1681px;
+  margin-left:70px;
+  font-color:black;
+  font-size: 80%;
+}
+
+.assorted {
+    font-family:Montserrat;
+    font-size:20px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top:-210px;
+    background-color: #E9C3D0;
+    border:1px solid grey;
+    padding-right:1%;
+    padding-left:1%;
+    padding-top:0px;
+}
+
+.assortedtable {
+  position: absolute;
+  margin-left: 600px;
+  margin-top:-90px;
+  font-family:Montserrat;
+}
+
+.assortedtable th{
+  background-color:#D1D0CE;
+  width:65%;
+  text-align:left;
+}
+
+.assortedtable td {
+  text-align:left;
+}
+
+.graph1 {
+  position: absolute;
+  margin-top: 210px;
+  margin-left:600px;
+}
+.graph2 {
+  position: absolute;
+  margin-top: 650px;
+  margin-left:600px;
+}
+
+.interludetitle {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 600px;
+  margin-top:1150px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.interlude {
+  position: absolute;
+  margin-left: 600px;
+  margin-top:1270px;
+  font-family:Montserrat;
+}
+
+.ascension {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 600px;
+  margin-top:1440px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.ascensiontable {
+  position: absolute;
+  margin-left: 600px;
+  margin-top:1570px;
+  font-family:Montserrat;
+}
+
+.skillstext {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 600px;
+  margin-top:1870px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.skillstable {
+  position: absolute;
+  margin-left: 600px;
+  margin-top:2000px;
+  font-family:Montserrat;
+}
+
+.totalmats {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 600px;
+  margin-top:2600px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.totalmatstable {
+  position: absolute;
+  margin-left: 600px;
+  margin-top:2730px;
+  font-family:Montserrat;
+}
+
+.bondce {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top:1840px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+
+.bondcetable {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:1970px;
+  font-family:Montserrat;
+}
+
+.bondcepic {
+  position: absolute;
+  margin-left:0px;
+  margin-top:2100px;
+}
+
+.bondcetext {
+  position: absolute;
+  margin-left: 100px;
+  margin-top:2070px;
+  font-family:Montserrat;
+}
+
+.otherinfo {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top:2250px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+.otherinfotable {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:2370px;
+  font-family:Montserrat;
+}
+
+.parameters {
+  font-family:Montserrat;
+  font-size:20px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top:2600px;
+  background-color: #E9C3D0;
+  border:1px solid grey;
+  padding-right:1%;
+  padding-left:1%;
+}
+.parameterpic {
+  position: absolute;
+  margin-left: 0px;
+  margin-top:2750px;
+}

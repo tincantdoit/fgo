@@ -134,7 +134,9 @@ button{
 }
 
 .buttons {
-  position:relative;
+  position:absolute;
+  margin-top:1500px;
+  margin-left:10px;
 }
 body {
   background-color:#FDD7E4;
